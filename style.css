@@ -34,6 +34,9 @@ img { display: block; max-width: 100%; height: auto; }
 .top nav a { color: var(--muted); text-decoration: none; font-size: 15px; }
 .top nav a:hover { color: var(--text); }
 @media (max-width: 560px) { .top nav a:not(.keep) { display: none; } }
+/* Two links stay on phones (Pricing, Privacy); tighten the bar so the wordmark keeps one line at 320px. */
+.brand { white-space: nowrap; }
+@media (max-width: 360px) { .brand { gap: 8px; font-size: 17px; } .top nav { gap: 14px; } }
 
 /* hero */
 .hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--c3); }
