@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brick Volley — offline neon brick breaker for iPhone and Android</title>
+<meta name="description" content="Drag to aim, release a volley, clear the wall before it reaches the floor. Offline, no ads, no accounts. Levels 1–4 free; the full game is a one-time $0.99.">
+<meta name="theme-color" content="#07070F">
+<meta property="og:title" content="Brick Volley">
+<meta property="og:description" content="One shot. Every ricochet counts. An offline neon brick breaker — no ads, no accounts.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/game-aim.webp">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#"><img src="assets/logo.svg" width="36" height="36" alt="">Brick Volley</a>
+    <nav aria-label="Sections">
+      <a href="#play">How to play</a>
+      <a href="#pricing">Pricing</a>
+      <a class="keep" href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <!-- The site's one bent line: the aim preview, off the right wall. -->
+    <svg class="trace" aria-hidden="true" viewBox="0 0 1200 700" preserveAspectRatio="none">
+      <polyline points="120,660 1180,250 760,40" fill="none" stroke="#00F0FF" stroke-width="2" stroke-dasharray="1 13" stroke-linecap="round"/>
+    </svg>
+    <div class="wrap">
+      <div>
+        <span class="tag">Offline arcade · iPhone &amp; Android</span>
+        <h1 class="display">One shot.<br><span>Every ricochet counts.</span></h1>
+        <p class="lede">Drag to aim, release a volley of balls and watch them bank off the walls. Break the numbered bricks before the wall reaches the floor.</p>
+        <div class="cta">
+          <span class="btn soon" role="img" aria-label="Coming soon on the App Store">
+            <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="#EDEDFF" d="M16.4 12.6c0-2.4 2-3.5 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.8-3.5.8-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.6zM14.1 5.6c.6-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.6 2.8-1.4z"/></svg>
+            <span><small>Coming soon</small>App Store</span>
+          </span>
+          <span class="btn soon" role="img" aria-label="Coming soon on Google Play">
+            <svg width="20" height="22" viewBox="0 0 20 22" aria-hidden="true"><path fill="#39FF88" d="M1 1.2 11.2 11 1 20.8c-.4-.2-.6-.6-.6-1.1V2.3c0-.5.2-.9.6-1.1z"/><path fill="#00F0FF" d="M14.6 7.6 11.2 11 1 1.2l.2-.1 13.4 6.5z"/><path fill="#FF2BD6" d="M14.6 14.4 1.2 20.9 1 20.8 11.2 11z"/><path fill="#FFE94D" d="m18.6 9.6-4 -2 -3.4 3.4 3.4 3.4 4-2c1.1-.6 1.1-2.2 0-2.8z"/></svg>
+            <span><small>Coming soon</small>Google Play</span>
+          </span>
+        </div>
+        <p class="free"><b>Levels 1–4 free.</b> No ads, no accounts, no internet needed to play.</p>
+      </div>
+      <div class="phone"><img src="assets/img/game-aim.webp" width="520" height="1127" alt="Brick Volley mid-aim: a dotted ricochet line from the launcher, off the right wall, towards rows of glowing numbered bricks."></div>
+    </div>
+  </div>
+
+  <section id="play">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="tag num">01</span>
+        <h2 class="display">How to play</h2>
+      </div>
+      <div class="rows">
+        <div class="row primary"><span class="n num">01</span><div><h3>Aim</h3><p>Drag anywhere on the board. A dotted preview shows the path, including the first bounce off a wall — the same physics as the real shot.</p></div><span class="side tag">Drag</span></div>
+        <div class="row"><span class="n num">02</span><div><h3>Volley</h3><p>Release to fire every ball you have, one after another. Each hit takes one point off a brick; at zero it shatters.</p></div><span class="side tag">Release</span></div>
+        <div class="row"><span class="n num">03</span><div><h3>Grow</h3><p>Pass through a <span style="color:var(--green)">+1</span> ring to add a ball to your next volley. More balls, longer chains.</p></div><span class="side tag">+1</span></div>
+        <div class="row"><span class="n num">04</span><div><h3>Hold the line</h3><p>After every turn the wall comes down a row. Clear it before a brick reaches the floor — or start the level again with the same layout.</p></div><span class="side tag">12 levels</span></div>
+      </div>
+      <div class="shots">
+        <figure><img src="assets/img/menu.webp" width="520" height="1127" loading="lazy" alt="Menu: the title and best score, and a numbered list — Play, Levels, Sound, About."><figcaption class="tag">Menu</figcaption></figure>
+        <figure><img src="assets/img/game-aim.webp" width="520" height="1127" loading="lazy" alt="Aiming: the dotted preview bends off the right wall."><figcaption class="tag">Aim</figcaption></figure>
+        <figure><img src="assets/img/game-volley.webp" width="520" height="1127" loading="lazy" alt="A volley in flight: glowing balls with short trails breaking bricks."><figcaption class="tag">Volley</figcaption></figure>
+        <figure><img src="assets/img/levels.webp" width="520" height="1127" loading="lazy" alt="Levels: a numbered ledger with best scores and locks."><figcaption class="tag">Levels</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="made">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="tag num">02</span>
+        <h2 class="display">Made for one thumb</h2>
+      </div>
+      <div class="rows" style="margin-bottom:72px">
+        <div class="row"><span class="n num">01</span><div><h3>Offline, always</h3><p>No account, no network for play. Your progress saves after every turn — close the app mid-level and pick up where you left off.</p></div></div>
+        <div class="row"><span class="n num">02</span><div><h3>No ads, no tracking</h3><p>Nothing interrupts a volley, and nothing about you leaves your phone.</p></div></div>
+        <div class="row"><span class="n num">03</span><div><h3>Chiptune sound, your call</h3><p>Original 8-bit effects that mix with your own music — switch them off in one tap.</p></div></div>
+        <div class="row"><span class="n num">04</span><div><h3>Easy on the eyes</h3><p>Large-text support and a reduced-motion mode that drops trails and confetti.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="wrap ledger">
+      <div class="section-head">
+        <span class="tag num">03</span>
+        <h2 class="display">Pricing</h2>
+      </div>
+      <div class="rows">
+        <div class="row"><span class="n num">01</span><div><h3>Levels 1–4</h3><p>The whole game, start to Level 4 — every mechanic included.</p></div><span class="side price num free-p">Free</span></div>
+        <div class="row primary"><span class="n num">02</span><div><h3>Full game · Levels 5–12</h3><p>One purchase unlocks every level from Level 5 on, plus any levels added later. Restore it on a new phone from the app.</p></div><span class="side price num">$0.99</span></div>
+      </div>
+      <p class="note">One-time, no subscription, no ads. Store prices may vary by country.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Brick Volley</span>
+    <a href="privacy.html">Privacy Policy</a>
+    <span>Fonts: Audiowide, Chakra Petch, JetBrains Mono — SIL Open Font License (<a href="assets/fonts/OFL-Audiowide.txt">1</a>, <a href="assets/fonts/OFL-ChakraPetch.txt">2</a>, <a href="assets/fonts/OFL-JetBrainsMono.txt">3</a>)</span>
+  </div>
+</footer>
+
+</body>
+</html>
