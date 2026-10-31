@@ -1,6 +1,6 @@
 # Brick Volley
 
-> Brick Volley is an offline neon brick-breaker game for iPhone and Android. Drag to aim, release a volley of balls, and break the numbered bricks before the wall reaches the floor. No ads, no accounts, no tracking. Levels 1–4 are free; the full game is a one-time $0.99 purchase.
+> Brick Volley is an offline neon arcade game for iPhone and Android. Drag to aim and release a volley of balls, then hold a finger down to raise a paddle that sends each falling ball back up once. Break the numbered blocks before the wall reaches the floor. No ads, no accounts, no tracking. Levels 1–4 are free; the full game is a one-time $0.99 purchase.
 
 - Platforms: iOS (App Store) and Android (Google Play), both coming soon
 - Play: single player, fully offline; progress saves after every turn
@@ -12,4 +12,5 @@
 ## Pages
 
 - [Home](https://nguyenvanlamm.github.io/brick-volley-site/): how to play, features and pricing
+- [Support](https://nguyenvanlamm.github.io/brick-volley-site/support.html): contact, restoring a purchase, how the paddle works
 - [Privacy Policy](https://nguyenvanlamm.github.io/brick-volley-site/privacy.html): what the app stores (only on the device) and how purchases are handled
